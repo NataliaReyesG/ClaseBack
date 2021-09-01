@@ -1,0 +1,13 @@
+//npm-init - inicializar un proyecto de node creando el achivo package.json
+//npm install - descarga e instala en el proyecto las librerias solicitadas
+//     npm install name_library
+        npm i - forma abreviada
+
+//npm i morgan - es un reegistro de las peticiones llegadas al api
+//npm i nodemon - para ambientes de desarrollo, reinicia la aplicacion cuando guardamos cambios
+    en la aplicacion
+
+// se debe agregar  "dev": "nodemon app.js" en el objeto scripts para poder ejecutar la appp en ambiente de 
+    desarrollo con npm run dev
+
+//require - busca los modulos en la carpeta nodemodules y permite usuarlos en el archivo de JS
